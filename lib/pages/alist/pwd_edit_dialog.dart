@@ -25,14 +25,14 @@ class _PwdEditDialogState extends State<PwdEditDialog>
   @override
   Widget build(BuildContext context) {
     return AlertDialog(
-      title: const Text("修改admin密码"),
+      title: const Text("修改Admin密码"),
       content: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
           TextField(
             controller: pwdController,
             decoration: const InputDecoration(
-              labelText: "admin密码",
+              labelText: "Admin密码",
             ),
           ),
         ],
