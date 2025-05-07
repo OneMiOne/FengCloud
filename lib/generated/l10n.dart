@@ -70,10 +70,10 @@ class S {
     );
   }
 
-  /// `设置admin密码`
+  /// `设置Admin密码`
   String get setAdminPassword {
     return Intl.message(
-      '设置admin密码',
+      '设置Admin密码',
       name: 'setAdminPassword',
       desc: '',
       args: [],
@@ -400,10 +400,10 @@ class S {
     );
   }
 
-  /// `data 文件夹路径`
+  /// `Data 文件夹路径`
   String get dataDirectory {
     return Intl.message(
-      'data 文件夹路径',
+      'Data 文件夹路径',
       name: 'dataDirectory',
       desc: '',
       args: [],
